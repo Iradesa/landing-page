@@ -1,58 +1,40 @@
-.background-container {
-  display: flex;
-  flex-direction: column;
+.box {
+  /*border-style: solid;
+  border-color: black;
+  border-width: 5px;*/
+  text-align: center;
 }
 
-/* this selector selects all divs inside of .background-container */
-.background-container div {
-  width: 920px;
-  flex: 1 1 auto;
-} 
-
-.background-container .one,
-.background-container .two,
-.background-container .six{
-  background: #1F2937
+.background-box {
+  background-color: #1F2937;
+  height:1175px;
+  width:950px;
 }
 
-.background-container .three,
-.background-container .five{
-  background: white
+.first-box {
+  background-color: #1F2937;
+  color: #fff;
+  width: 950px;
+  height: 320px;
 }
 
-.background-container .four{
-  background: #E5E7EB
+.second-box {
+  background-color: white;
+  color: #fff;
+  width: 950px;
+  height: 290px;
 }
 
-.background-container .one,
-.background-container .six{
-  height: 80px;
+.third-box {
+  background-color: #E5E7EB;
+  color: #fff;
+  width: 950px;
+  height: 290px;
 }
 
-.background-container .two,
-.background-container .three,
-.background-container .four,
-.background-container .five{
-  height: 260px;
-}
-
-
-.background-container .two .logo,
-.background-container .two .link{
-  height: 10px;
-  flex-direction: row;
-}
-
-.logo{
-  color: #F9FAF8;
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.link{
-  height: 5px;
-  color: #F9FAF8;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+.fourth-box {
+  background-color: white;
+  color: #fff;
+  width: 950px;
+  height: 210px;
 }
