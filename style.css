@@ -15,26 +15,51 @@
   background-color: #1F2937;
   color: #fff;
   width: 950px;
-  height: 320px;
+  height: 50px;
 }
 
+  .first-box .header-container{
+    color: white;
+    font-family: Roboto, sans-serif;
+  }
+
+  .first-box .header-container .logo{
+    font-weight: bold;
+    font-size: 24px;
+    flex-direction: row;
+  }
+
 .second-box {
-  background-color: white;
+  background-color: #1F2937;
   color: #fff;
   width: 950px;
-  height: 290px;
+  height: 270px;
 }
 
 .third-box {
-  background-color: #E5E7EB;
+  background-color: white;
   color: #fff;
   width: 950px;
-  height: 290px;
+  height: 280px;
 }
 
 .fourth-box {
+  background-color: #E5E7EB;
+  color: #fff;
+  width: 950px;
+  height: 280px;
+}
+
+.fifth-box {
   background-color: white;
   color: #fff;
   width: 950px;
   height: 210px;
+}
+
+.sixth-box {
+  background-color: #1F2937;
+  color: #fff;
+  width: 950px;
+  height: 85px;
 }
