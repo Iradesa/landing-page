@@ -3,23 +3,26 @@ header{
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  margin: auto;
 }
 
-header .navigation{
-  padding: 10px;
-  font-size: 18px;
-  color: #E5E7EB;
-  text-align: center;
-}
+  header .navigation{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+    header .navigation .link1,
+    header .navigation .link2,
+    header .navigation .link3{
+      margin: 0 15px;
+      display: inline;
+    }
 
-header .logo{
-  font-size: 24px;
-  font-weight: bold;
-  color: #F9FAF8;
-  text-align: center;
-}
+  header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: center;
+  }
 
 footer{
   background-color: #1F2937;
@@ -33,20 +36,23 @@ section{
   background-color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
   section .section1{
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    height: 400px;
+    padding: 200px;
   }
 
   section .section2{
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    height: 400px;
+    padding: 200px;
   }
 
   section .section3{
@@ -54,9 +60,17 @@ section{
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
-    height: 400px;
+    padding: 200px;
+    text-align: left;
   }
+    section .section3 .quote{
+      margin-top: 20px;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: right;
+    }
 
   section .section4{
-    height: 400px;
+    padding: 200px;
+    font-size: 28px;
   }
