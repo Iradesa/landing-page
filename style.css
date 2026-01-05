@@ -1,65 +1,62 @@
-.box {
-  /*border-style: solid;
-  border-color: black;
-  border-width: 5px;*/
+header{
+  background-color: #1F2937;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
-.background-box {
-  background-color: #1F2937;
-  height:1175px;
-  width:950px;
+header .navigation{
+  padding: 10px;
+  font-size: 18px;
+  color: #E5E7EB;
+  text-align: center;
 }
 
-.first-box {
-  background-color: #1F2937;
-  color: #fff;
-  width: 950px;
-  height: 50px;
+header .logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+  text-align: center;
 }
 
-  .first-box .header-container{
-    color: white;
-    font-family: Roboto, sans-serif;
+footer{
+  background-color: #1F2937;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+section{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+  section .section1{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    height: 400px;
   }
 
-  .first-box .header-container .logo{
-    font-weight: bold;
-    font-size: 24px;
-    flex-direction: row;
+  section .section2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    height: 400px;
   }
 
-.second-box {
-  background-color: #1F2937;
-  color: #fff;
-  width: 950px;
-  height: 270px;
-}
+  section .section3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    height: 400px;
+  }
 
-.third-box {
-  background-color: white;
-  color: #fff;
-  width: 950px;
-  height: 280px;
-}
-
-.fourth-box {
-  background-color: #E5E7EB;
-  color: #fff;
-  width: 950px;
-  height: 280px;
-}
-
-.fifth-box {
-  background-color: white;
-  color: #fff;
-  width: 950px;
-  height: 210px;
-}
-
-.sixth-box {
-  background-color: #1F2937;
-  color: #fff;
-  width: 950px;
-  height: 85px;
-}
+  section .section4{
+    height: 400px;
+  }
