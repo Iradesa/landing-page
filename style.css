@@ -36,9 +36,6 @@ section{
   background-color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
 }
   section .section1{
     background-color: #1F2937;
@@ -46,14 +43,91 @@ section{
     font-size: 48px;
     font-weight: 900;
     padding: 200px;
+    text-align: center;
   }
 
   section .section2{
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 900;
-    padding: 200px;
+    padding: 80px;
   }
+    section .section2 .title{
+      text-align: center;
+      color: #1F2937;
+      font-size: 36px;
+      font-weight: 900;
+      padding: 0px 0px 50px;
+    }
+    section .section2 .box1,
+    section .section2 .box2,
+    section .section2 .box3,
+    section .section2 .box4{
+      padding: 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 24px;
+      height: 300px;
+      width: 300px;
+      margin: auto;
+    }
+      section .section2 .box1 .box{
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+        border: 6px solid #3882F6;
+      }
+      section .section2 .box1 .text{
+        margin: 20px;
+        padding: 1px;
+        text-align: center;
+        color:grey;
+        font-size: 28px;
+        font-weight: 300;
+      }
+      section .section2 .box2 .box{
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+        border: 6px solid #3882F6;
+      }
+      section .section2 .box2 .text{
+        margin: 20px;
+        padding: 1px;
+        text-align: center;
+        color:grey;
+        font-size: 28px;
+        font-weight: 300;
+      }
+      section .section2 .box3 .box{
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+        border: 6px solid #3882F6;
+      }
+      section .section2 .box3 .text{
+        margin: 20px;
+        padding: 1px;
+        text-align: center;
+        color:grey;
+        font-size: 28px;
+        font-weight: 300;
+      }
+      section .section2 .box4 .box{
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+        border: 6px solid #3882F6;
+      }
+      section .section2 .box4 .text{
+        margin: 20px;
+        padding: 1px;
+        text-align: center;
+        color:grey;
+        font-size: 28px;
+        font-weight: 300;
+      }
 
   section .section3{
     background-color: #E5E7EB;
