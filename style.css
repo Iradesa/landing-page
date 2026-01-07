@@ -39,12 +39,49 @@ section{
 }
   section .section1{
     background-color: #1F2937;
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
     padding: 200px;
-    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
   }
+    section .section1 .text{
+      background-color: #1F2937;
+      text-align: left;
+      color: white;
+      margin: 20px;
+      font-size: 24px;
+    }
+      section .section1 .text .header{
+        color: white;
+        font-size: 48px;
+        font-weight: 900;
+      }
+      section .section1 .text .subheader{
+        color: #D1D5DB;
+        font-size: 24px;
+        font-weight: 300;
+      }
+      section .section1 .text .button{
+        font-size: 24px;
+      }
+        section .section1 .text .button .buttonbox{
+          border-radius: 15px;
+          border: 3px white;
+          background-color: #3882F6;
+          color: white;
+          padding: 10px 40px 10px 40px;
+          margin-top: 20px;
+          width: 90px;
+        }
+    section .section1 .image{
+      background-color: grey;
+      color: rgb(209, 209, 209);
+      font-size: 22px;
+      margin: 15px;
+      padding: 150px 200px 150px 200px;
+      width: 900px;
+    }
+
 
   section .section2{
     padding: 80px;
